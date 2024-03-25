@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Q94cKsXm9CR4Npr3/WLaTVEf6MxaJfhfxpMxjwZxvRE=",
+  "Source": "MerchantTest.Api",
+  "BasePath": "_content/MerchantTest.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

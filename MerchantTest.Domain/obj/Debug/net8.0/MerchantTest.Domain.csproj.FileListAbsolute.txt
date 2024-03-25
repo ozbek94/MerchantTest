@@ -1,0 +1,14 @@
+D:\MerchantTest\MerchantTest.Domain\bin\Debug\net8.0\MerchantTest.Domain.deps.json
+D:\MerchantTest\MerchantTest.Domain\bin\Debug\net8.0\MerchantTest.Domain.dll
+D:\MerchantTest\MerchantTest.Domain\bin\Debug\net8.0\MerchantTest.Domain.pdb
+D:\MerchantTest\MerchantTest.Domain\obj\Debug\net8.0\MerchantTest.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\MerchantTest\MerchantTest.Domain\obj\Debug\net8.0\MerchantTest.Domain.AssemblyInfoInputs.cache
+D:\MerchantTest\MerchantTest.Domain\obj\Debug\net8.0\MerchantTest.Domain.AssemblyInfo.cs
+D:\MerchantTest\MerchantTest.Domain\obj\Debug\net8.0\MerchantTest.Domain.csproj.CoreCompileInputs.cache
+D:\MerchantTest\MerchantTest.Domain\obj\Debug\net8.0\MerchantTest.Domain.dll
+D:\MerchantTest\MerchantTest.Domain\obj\Debug\net8.0\refint\MerchantTest.Domain.dll
+D:\MerchantTest\MerchantTest.Domain\obj\Debug\net8.0\MerchantTest.Domain.pdb
+D:\MerchantTest\MerchantTest.Domain\obj\Debug\net8.0\ref\MerchantTest.Domain.dll
+D:\MerchantTest\MerchantTest.Domain\bin\Debug\net8.0\MerchantTest.Domain.runtimeconfig.json
+D:\MerchantTest\MerchantTest.Domain\obj\Debug\net8.0\MerchantTest.Domain.genruntimeconfig.cache
+D:\MerchantTest\MerchantTest.Domain\obj\Debug\net8.0\MerchantTest.Domain.csproj.AssemblyReference.cache

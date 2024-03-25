@@ -1,0 +1,17 @@
+D:\MerchantTest\MerchantTest.Applicatiıon\obj\Debug\net8.0\MerchantTest.Applicatiıon.csproj.AssemblyReference.cache
+D:\MerchantTest\MerchantTest.Applicatiıon\obj\Debug\net8.0\MerchantTest.Applicatiıon.GeneratedMSBuildEditorConfig.editorconfig
+D:\MerchantTest\MerchantTest.Applicatiıon\obj\Debug\net8.0\MerchantTest.Applicatiıon.AssemblyInfoInputs.cache
+D:\MerchantTest\MerchantTest.Applicatiıon\obj\Debug\net8.0\MerchantTest.Applicatiıon.AssemblyInfo.cs
+D:\MerchantTest\MerchantTest.Applicatiıon\obj\Debug\net8.0\MerchantTest.Applicatiıon.csproj.CoreCompileInputs.cache
+D:\MerchantTest\MerchantTest.Applicatiıon\bin\Debug\net8.0\MerchantTest.Applicatiıon.deps.json
+D:\MerchantTest\MerchantTest.Applicatiıon\bin\Debug\net8.0\MerchantTest.Applicatiıon.dll
+D:\MerchantTest\MerchantTest.Applicatiıon\bin\Debug\net8.0\MerchantTest.Applicatiıon.pdb
+D:\MerchantTest\MerchantTest.Applicatiıon\bin\Debug\net8.0\MerchantTest.Domain.dll
+D:\MerchantTest\MerchantTest.Applicatiıon\bin\Debug\net8.0\MerchantTest.Domain.pdb
+D:\MerchantTest\MerchantTest.Applicatiıon\obj\Debug\net8.0\MerchantTest.Applicatiıon.csproj.CopyComplete
+D:\MerchantTest\MerchantTest.Applicatiıon\obj\Debug\net8.0\MerchantTest.Applicatiıon.dll
+D:\MerchantTest\MerchantTest.Applicatiıon\obj\Debug\net8.0\refint\MerchantTest.Applicatiıon.dll
+D:\MerchantTest\MerchantTest.Applicatiıon\obj\Debug\net8.0\MerchantTest.Applicatiıon.pdb
+D:\MerchantTest\MerchantTest.Applicatiıon\obj\Debug\net8.0\ref\MerchantTest.Applicatiıon.dll
+D:\MerchantTest\MerchantTest.Applicatiıon\bin\Debug\net8.0\MerchantTest.Applicatiıon.runtimeconfig.json
+D:\MerchantTest\MerchantTest.Applicatiıon\obj\Debug\net8.0\MerchantTest.Applicatiıon.genruntimeconfig.cache
