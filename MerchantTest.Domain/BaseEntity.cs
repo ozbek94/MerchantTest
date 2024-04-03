@@ -10,7 +10,7 @@ namespace MerchantTest.Domain
         public DateTime? DeleteTime { get; set; }
 
         public List<BaseDomainEvent> Events = new List<BaseDomainEvent>();
-
+            
 
         public BaseEntity()
         {

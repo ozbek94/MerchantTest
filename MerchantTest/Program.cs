@@ -2,11 +2,11 @@ using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using MediatR;
 using MerchantTest.Api;
+using MerchantTest.Api.Extensions;
 using MerchantTest.Applicatiýon.Hubs;
 using MerchantTest.Domain.Entities;
 using MerchantTest.Infrastructure.Contexts;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 using Serilog;
 using System.Reflection;
 
@@ -42,6 +42,10 @@ builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 builder.Host.ConfigureContainer<ContainerBuilder>(builder => builder.RegisterModule(new DependencyResolver()));
 builder.Host.UseSerilog();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+builder.Services.AddStackExchangeRedisCache(options =>
+    options.Configuration = builder.Configuration.GetConnectionString("Cache"));
+
 var app = builder.Build();
 
 Log.Logger = new LoggerConfiguration()
@@ -56,6 +60,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.ApplyMigrations();
 }
 
 app.UseAuthorization();

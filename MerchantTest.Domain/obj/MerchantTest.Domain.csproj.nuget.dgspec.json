@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj": {}
+    "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj": {}
   },
   "projects": {
-    "D:\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj": {
+    "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj",
         "projectName": "MerchantTest.Domain",
-        "projectPath": "D:\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj",
+        "projectPath": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj",
         "packagesPath": "C:\\Users\\alper\\.nuget\\packages\\",
-        "outputPath": "D:\\MerchantTest\\MerchantTest.Domain\\obj\\",
+        "outputPath": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

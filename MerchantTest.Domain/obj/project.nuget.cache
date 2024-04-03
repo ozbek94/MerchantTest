@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MIr6gAeoPd5sEeXdQZtWIeiG57jz53pwEPxOzz6IgCmxgV67Awog6SKf/oy8QN4RUUWirYRS3J6bFa/7MxFoVg==",
+  "dgSpecHash": "yov9k2vUvU/w6lFKL2VX1IeTlMdCeb24JQpQnS4QS4mxCps2xc+C5tEcCY5wtheHBP4lZbhqizLkROBHxLpECQ==",
   "success": true,
-  "projectFilePath": "D:\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj",
+  "projectFilePath": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alper\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\alper\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",

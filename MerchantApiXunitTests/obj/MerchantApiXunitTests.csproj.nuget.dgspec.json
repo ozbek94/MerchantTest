@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MerchantTest\\MerchantApiXunitTests\\MerchantApiXunitTests.csproj": {}
+    "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantApiXunitTests\\MerchantApiXunitTests.csproj": {}
   },
   "projects": {
-    "D:\\MerchantTest\\Infrastructure\\MerchantTest.Infrastructure.csproj": {
+    "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\Infrastructure\\MerchantTest.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MerchantTest\\Infrastructure\\MerchantTest.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\Infrastructure\\MerchantTest.Infrastructure.csproj",
         "projectName": "MerchantTest.Infrastructure",
-        "projectPath": "D:\\MerchantTest\\Infrastructure\\MerchantTest.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\Infrastructure\\MerchantTest.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\alper\\.nuget\\packages\\",
-        "outputPath": "D:\\MerchantTest\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,11 +31,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\MerchantTest\\MerchantTest.Applicatiıon\\MerchantTest.Applicatiıon.csproj": {
-                "projectPath": "D:\\MerchantTest\\MerchantTest.Applicatiıon\\MerchantTest.Applicatiıon.csproj"
+              "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Applicatiıon\\MerchantTest.Applicatiıon.csproj": {
+                "projectPath": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Applicatiıon\\MerchantTest.Applicatiıon.csproj"
               },
-              "D:\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj": {
-                "projectPath": "D:\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj"
+              "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj": {
+                "projectPath": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "D:\\MerchantTest\\MerchantApiXunitTests\\MerchantApiXunitTests.csproj": {
+    "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantApiXunitTests\\MerchantApiXunitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MerchantTest\\MerchantApiXunitTests\\MerchantApiXunitTests.csproj",
+        "projectUniqueName": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantApiXunitTests\\MerchantApiXunitTests.csproj",
         "projectName": "MerchantApiXunitTests",
-        "projectPath": "D:\\MerchantTest\\MerchantApiXunitTests\\MerchantApiXunitTests.csproj",
+        "projectPath": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantApiXunitTests\\MerchantApiXunitTests.csproj",
         "packagesPath": "C:\\Users\\alper\\.nuget\\packages\\",
-        "outputPath": "D:\\MerchantTest\\MerchantApiXunitTests\\obj\\",
+        "outputPath": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantApiXunitTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -112,17 +112,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\MerchantTest\\Infrastructure\\MerchantTest.Infrastructure.csproj": {
-                "projectPath": "D:\\MerchantTest\\Infrastructure\\MerchantTest.Infrastructure.csproj"
+              "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\Infrastructure\\MerchantTest.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\Infrastructure\\MerchantTest.Infrastructure.csproj"
               },
-              "D:\\MerchantTest\\MerchantTest.Applicatiıon\\MerchantTest.Applicatiıon.csproj": {
-                "projectPath": "D:\\MerchantTest\\MerchantTest.Applicatiıon\\MerchantTest.Applicatiıon.csproj"
+              "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Applicatiıon\\MerchantTest.Applicatiıon.csproj": {
+                "projectPath": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Applicatiıon\\MerchantTest.Applicatiıon.csproj"
               },
-              "D:\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj": {
-                "projectPath": "D:\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj"
+              "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj": {
+                "projectPath": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj"
               },
-              "D:\\MerchantTest\\MerchantTest\\MerchantTest.Api.csproj": {
-                "projectPath": "D:\\MerchantTest\\MerchantTest\\MerchantTest.Api.csproj"
+              "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest\\MerchantTest.Api.csproj": {
+                "projectPath": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest\\MerchantTest.Api.csproj"
               }
             }
           }
@@ -178,14 +178,14 @@
         }
       }
     },
-    "D:\\MerchantTest\\MerchantTest.Applicatiıon\\MerchantTest.Applicatiıon.csproj": {
+    "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Applicatiıon\\MerchantTest.Applicatiıon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MerchantTest\\MerchantTest.Applicatiıon\\MerchantTest.Applicatiıon.csproj",
+        "projectUniqueName": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Applicatiıon\\MerchantTest.Applicatiıon.csproj",
         "projectName": "MerchantTest.Applicatiıon",
-        "projectPath": "D:\\MerchantTest\\MerchantTest.Applicatiıon\\MerchantTest.Applicatiıon.csproj",
+        "projectPath": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Applicatiıon\\MerchantTest.Applicatiıon.csproj",
         "packagesPath": "C:\\Users\\alper\\.nuget\\packages\\",
-        "outputPath": "D:\\MerchantTest\\MerchantTest.Applicatiıon\\obj\\",
+        "outputPath": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Applicatiıon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -205,8 +205,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj": {
-                "projectPath": "D:\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj"
+              "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj": {
+                "projectPath": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj"
               }
             }
           }
@@ -228,6 +228,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
               "target": "Package",
               "version": "[8.0.3, )"
             }
@@ -252,14 +256,14 @@
         }
       }
     },
-    "D:\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj": {
+    "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj",
         "projectName": "MerchantTest.Domain",
-        "projectPath": "D:\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj",
+        "projectPath": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Domain\\MerchantTest.Domain.csproj",
         "packagesPath": "C:\\Users\\alper\\.nuget\\packages\\",
-        "outputPath": "D:\\MerchantTest\\MerchantTest.Domain\\obj\\",
+        "outputPath": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -322,14 +326,14 @@
         }
       }
     },
-    "D:\\MerchantTest\\MerchantTest\\MerchantTest.Api.csproj": {
+    "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest\\MerchantTest.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MerchantTest\\MerchantTest\\MerchantTest.Api.csproj",
+        "projectUniqueName": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest\\MerchantTest.Api.csproj",
         "projectName": "MerchantTest.Api",
-        "projectPath": "D:\\MerchantTest\\MerchantTest\\MerchantTest.Api.csproj",
+        "projectPath": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest\\MerchantTest.Api.csproj",
         "packagesPath": "C:\\Users\\alper\\.nuget\\packages\\",
-        "outputPath": "D:\\MerchantTest\\MerchantTest\\obj\\",
+        "outputPath": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\MerchantTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -349,8 +353,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\MerchantTest\\Infrastructure\\MerchantTest.Infrastructure.csproj": {
-                "projectPath": "D:\\MerchantTest\\Infrastructure\\MerchantTest.Infrastructure.csproj"
+              "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\Infrastructure\\MerchantTest.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\alper\\Documents\\GitHub\\MerchantTest\\Infrastructure\\MerchantTest.Infrastructure.csproj"
               }
             }
           }
@@ -390,6 +394,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.5, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",

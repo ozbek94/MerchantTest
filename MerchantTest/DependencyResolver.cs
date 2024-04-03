@@ -1,5 +1,7 @@
 ﻿using Autofac;
+using MerchantTest.Applicatiıon.Managers.Caches;
 using MerchantTest.Applicatiıon.Services;
+using MerchantTest.Applicatiıon.Strategies.Customer;
 using MerchantTest.Infrastructure.Contexts;
 using MerchantTest.Infrastructure.Repositories;
 
@@ -21,7 +23,7 @@ namespace MerchantTest.Api
 
         private void LoadRepositories(ContainerBuilder builder)
         {
-            
+
             builder.RegisterType<MerchantRepository>().AsImplementedInterfaces().InstancePerLifetimeScope();
             builder.RegisterType<PaymentMethodRepository>().AsImplementedInterfaces().InstancePerLifetimeScope();
             builder.RegisterType<CustomerRepository>().AsImplementedInterfaces().InstancePerLifetimeScope();
@@ -31,7 +33,12 @@ namespace MerchantTest.Api
 
         private void LoadServices(ContainerBuilder builder)
         {
+            builder.RegisterType<RedisCacheManager>().AsImplementedInterfaces().InstancePerLifetimeScope();
             builder.RegisterType<CustomerService>().AsImplementedInterfaces().InstancePerLifetimeScope();
+            builder.RegisterType<ConfigurationStrategyFactory>().AsSelf().InstancePerLifetimeScope();
+            builder.RegisterType<GsmOperatorStrategy>().As<IConfigurationStrategy>().InstancePerLifetimeScope();
+            builder.RegisterType<EmailStrategy>().As<IConfigurationStrategy>().InstancePerLifetimeScope();
+            builder.RegisterType<RedisClient>().AsSelf().SingleInstance();
         }
     }
 }

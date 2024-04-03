@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MerchantTest.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a55673f9bbccaa57d461f545b6b06fdbac8923a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MerchantTest.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MerchantTest.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

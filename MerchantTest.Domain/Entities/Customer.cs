@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using MerchantTest.Domain.Enums;
+using System.ComponentModel.DataAnnotations;
 
 namespace MerchantTest.Domain.Entities
 {
@@ -11,6 +12,11 @@ namespace MerchantTest.Domain.Entities
         [Required]
         [MaxLength(100)]
         public string Url { get; set; }
+        [MaxLength(100)]
+        public string Adress { get; set; }
+        public ConfigurationEnum Configuration { get; set; }
+
+
 
         public virtual List<CustomerPaymentRequest> CustomerPaymentRequests { get; set; }
 

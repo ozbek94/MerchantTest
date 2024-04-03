@@ -1,0 +1,62 @@
+name: dockercompose3155283842087634021
+services:
+  merchanttest.api:
+    build:
+      context: C:\Users\alper\Documents\GitHub\MerchantTest
+      dockerfile: MerchantTest/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+    image: merchanttestapi
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\alper\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\alper\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+  merchanttest.cache:
+    image: redis:latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 6379
+        published: "6380"
+        protocol: tcp
+    restart: always
+  merchanttest.database:
+    container_name: merchanttest.database
+    environment:
+      POSTGRES_DB: merchanttest
+      POSTGRES_PASSWORD: A123456.
+      POSTGRES_USER: postgres
+    image: postgres:latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5432"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\alper\Documents\GitHub\MerchantTest\.containers\merchanttest-db
+        target: /var/lib/postgresql/data
+        bind:
+          create_host_path: true
+networks:
+  default:
+    name: dockercompose3155283842087634021_default

@@ -1,12 +1,16 @@
 ﻿using AutoMapper;
 using MerchantTest.Api.Models.Requests;
 using MerchantTest.Api.Models.Response;
+using MerchantTest.Applicatiıon.Managers.Caches;
 using MerchantTest.Applicatiıon.Repositories;
 using MerchantTest.Applicatiıon.Services;
+using MerchantTest.Applicatiıon.Strategies.Customer;
 using MerchantTest.Domain.Entities;
 using MerchantTest.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Distributed;
+using Newtonsoft.Json;
 using System.Linq.Expressions;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -22,14 +26,20 @@ namespace MerchantTest.Api.Controllers.Customers
         private readonly ICustomerRepository _customerRepository;
         private readonly IPaymentRequestRepository _paymentRequestRepository;
         private readonly ILogger<CustomerController> _logger;
+        private readonly ConfigurationStrategyFactory _factory;
+        private readonly IDistributedCacheManager _cacheManager;
+        private readonly IDistributedCache _distributedCache;
 
-        public CustomerController(ICustomerService customerService, IMapper mapper, ICustomerRepository customerRepository, IPaymentRequestRepository paymentRequestRepository, ILogger<CustomerController> logger)
+        public CustomerController(ICustomerService customerService, IMapper mapper, ICustomerRepository customerRepository, IPaymentRequestRepository paymentRequestRepository, ILogger<CustomerController> logger, ConfigurationStrategyFactory factory, IDistributedCacheManager cacheManager, IDistributedCache distributedCache)
         {
             _customerService = customerService;
             _mapper = mapper;
             _customerRepository = customerRepository;
             _paymentRequestRepository = paymentRequestRepository;
             _logger = logger;
+            _factory = factory;
+            _cacheManager = cacheManager;
+            _distributedCache = distributedCache;
         }
 
 
@@ -48,7 +58,15 @@ namespace MerchantTest.Api.Controllers.Customers
 
             var model = _mapper.Map<GetCustomerResponse>(customer);
 
-            return Ok(model);
+            var factory = new ConfigurationStrategyFactory();
+            var strategy = factory.GetStrategy(customer.Configuration);
+            var result = strategy.Execute();
+
+            _cacheManager.Set("Customer", model);
+            var cachedCustomer = _cacheManager.Get<GetCustomerResponse>("Customer");
+            _logger.LogInformation("Customer Cached: {@customer}", cachedCustomer);
+
+            return Ok(cachedCustomer);
         }
 
         // POST api/<CustomerController>

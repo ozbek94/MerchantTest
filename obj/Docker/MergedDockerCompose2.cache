@@ -1,0 +1,19 @@
+name: dockercompose3155283842087634021
+services:
+  merchanttest.api:
+    build:
+      context: C:\Users\alper\Documents\GitHub\MerchantTest
+      dockerfile: MerchantTest/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+    image: merchanttestapi
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose3155283842087634021_default

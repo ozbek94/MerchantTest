@@ -1,0 +1,39 @@
+version: '3.4'
+
+services:
+  mongodb_container:
+    image: mongo:latest
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb_data_container:/data/db
+
+  merchanttest.api:
+    image: ${DOCKER_REGISTRY-}merchanttestapi
+    container_name: merchanttest.api
+    build:
+      context: .
+      dockerfile: MerchantTest/Dockerfile
+    ports:
+      - "8080"
+
+  merchanttest.database:
+    image: postgres:latest
+    container_name: merchanttest.database
+    environment:
+      - POSTGRES_DB=merchanttest
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - ./.containers/merchanttest-db:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+
+  merchanttest.cache:
+    image: redis:latest
+    restart: always
+    ports:
+      - '6379:6379'
+
+volumes:
+  mongodb_data_container:
